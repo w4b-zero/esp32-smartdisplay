@@ -136,5 +136,5 @@ int smartdisplay_get_light_intensity()
 void smartdisplay_beep(unsigned int frequency, unsigned long duration)
 {
   // Uses PWM Channel 0
-  tone(AUDIO_PIN, frequency, duration);
+  //tone(AUDIO_PIN, frequency, duration);
 }
